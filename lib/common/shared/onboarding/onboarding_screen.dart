@@ -22,14 +22,14 @@ class OnboardingScreen extends StatelessWidget {
             right: 20,
             child: roundedImage(
               "assets/onboarding/cross_body_bag.avif",
-              150,
+              140,
               180,
             ),
           ),
           Positioned(
             top: 260,
             right: 20,
-            child: roundedImage("assets/onboarding/nike_cap.avif", 150, 150),
+            child: roundedImage("assets/onboarding/nike_cap.avif", 145, 145),
           ),
           Positioned(
             bottom: 330,
@@ -37,13 +37,13 @@ class OnboardingScreen extends StatelessWidget {
             child: roundedImage(
               "assets/onboarding/water_bottle.webp",
               100,
-              200,
+              180,
             ),
           ),
           Positioned(
             bottom: 330,
             right: 20,
-            child: roundedImage("assets/onboarding/gym_bag.avif", 280, 200),
+            child: roundedImage("assets/onboarding/gym_bag.avif", 280, 180),
           ),
           // Center message + Get Started Button
           Align(
